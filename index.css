@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(130, 133, 162);
+    
+}
+.calculator{
+    display: grid;
+    grid-template-rows:20% 80%;
+    width: 20rem;
+    height: 30rem;
+    color: white;
+    background-color: white;
+    border: 0.6rem solid #383565;
+    background-color: #383565;
+}
+.display{
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 80px;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: #44406dd9;
+
+}
+.buttons{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    background-color: #383565;
+
+    gap: 3px;
+    padding: 5px 0rem 0rem 0rem;
+    
+
+}
+.buttons button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+}
+.numero_resultado{
+   grid-column-end: 5;
+   grid-column-start: 4;
+   grid-row-end: 6;
+   grid-row-start:4;
+}
+.numero_img{
+    font-size: 3rem;
+}
+.numero_c{
+    background-color: #9385b949;
+    color: rgba(231, 77, 77, 0.595);
+}
+.numero_menos{
+    background-color: #9385b949;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_diagonal{
+    background-color: #9385b949;
+    color: rgba(231, 77, 77, 0.595);
+}
+.numero_multipliacion{
+    background-color: #9385b949;
+    color: rgba(231, 77, 77, 0.595);
+}
+.numero_siete{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_ocho{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_nueve{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_resta{
+    background-color: #9385b949;
+    color: rgba(231, 77, 77, 0.595);
+}
+.numero_cuatro{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_cinco{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_seis{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_mas{
+    background-color: #9385b949;
+    color: rgba(231, 77, 77, 0.595);
+}
+.numero_uno{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_dos{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_tres{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.zero{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_punto{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_img{
+    background-color: #5d469b49;
+    color: rgba(255, 255, 255, 0.626);
+}
+.numero_resultado{
+    background-color: #944545ca;
+    color: rgba(255, 255, 255, 0.626);
+}
+

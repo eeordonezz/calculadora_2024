@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display"></div>
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="numero_c">C</button>
+            <button onclick="deleteLast()" class="numero_menos">⌫</button>
+            <button onclick="appendOperator('/')" class="numero_diagonal">/</button>
+            <button onclick="appendOperator('*')" class="numero_multipliacion">*</button>
+            <button onclick="appendNumber('7')" class="numero_siete">7</button>
+            <button onclick="appendNumber('8')" class="numero_ocho">8</button>
+            <button onclick="appendNumber('9')" class="numero_nueve">9</button>
+            <button onclick="appendOperator('-')" class="numero_resta">-</button>
+            <button onclick="appendNumber('4')" class="numero_cuatro">4</button>
+            <button onclick="appendNumber('5')" class="numero_cinco">5</button>
+            <button onclick="appendNumber('6')" class="numero_seis">6</button>
+            <button onclick="appendOperator('+')" class="numero_mas">+</button>
+            <button onclick="appendNumber('1')" class="numero_uno">1</button>
+            <button onclick="appendNumber('2')" class="numero_dos">2</button>
+            <button onclick="appendNumber('3')" class="numero_tres">3</button>
+            <button onclick="calculate()" class="numero_resultado">=</button>
+            <button onclick="appendNumber('0')" class="zero">0</button>
+            <button onclick="appendNumber('.')" class="numero_punto">.</button>
+            <button onclick="appendNumber('🦖')" class="numero_img">🦖</button>
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
